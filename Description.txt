@@ -1,0 +1,3 @@
+Each feature vector is 344 characters long, where each character represent a unique word that would potentially identify e-mail as spam or non-spam. The value of each character is a boolean value that identifies weather or not the word has one or more occurences in the e-mail (value 1) and value 0 if the word does not appear in the document. 
+
+First column is a vector instance number and the second column identifies if the vector represents a spam e-mail message (value 1) or non-spam message (value -1)
